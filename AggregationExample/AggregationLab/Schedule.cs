@@ -8,7 +8,7 @@ namespace Aggregation
 {
     class Schedule
     {
-        ScheduleItem[] schedule = new ScheduleItem[10];
+        ScheduleItem[] schedule = new ScheduleItem[10];//field array of 10 items
 
         public void AddScheduleItem(ScheduleItem item)
         {

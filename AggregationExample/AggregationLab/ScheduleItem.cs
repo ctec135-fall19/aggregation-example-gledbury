@@ -16,9 +16,9 @@ namespace Aggregation
         public string CourseOutcomes { get; set; }
 
         // constructors
-        public ScheduleItem() { }
+        public ScheduleItem() { }//default constructor
 
-        public ScheduleItem(string d, int cn, string name, int credits)
+        public ScheduleItem(string d, int cn, string name, int credits)//master constructor
         {
             Department = d;
             CourseNumber = cn;

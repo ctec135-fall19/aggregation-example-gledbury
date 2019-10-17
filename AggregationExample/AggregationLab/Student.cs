@@ -32,7 +32,7 @@ namespace Aggregation
 
         public void AddScheduleItem(ScheduleItem item)
         {
-            schedule.AddScheduleItem(item);
+            schedule.AddScheduleItem(item);//example of wrapping one object into another
         }
 
         public void PrintAddress()
